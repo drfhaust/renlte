@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1_sfxer symbols")(type "KiCad")(uri "${KIPRJMOD}/../components/symbols/sfxer_symbols.kicad_sym")(options "")(descr ""))
+)

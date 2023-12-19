@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1_sfxer footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/footprints")(options "")(descr ""))
+  (lib (name "r0603")(type "KiCad")(uri "C:/Users/alex/Documents/GitHub/keyboard/components/footprints/r0603.pretty")(options "")(descr ""))
+)
