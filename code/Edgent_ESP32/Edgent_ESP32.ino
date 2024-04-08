@@ -154,7 +154,7 @@ if (countW>5){
 }
   handleCooling();
   float dcVoltage = getAverageADCReading();
-  Serial.println(dcVoltage);
+ // Serial.println(dcVoltage);
 
   // Read the data from the sensor
   float acVoltage = pzem.voltage();
@@ -198,7 +198,24 @@ if (countW>5){
     Serial.print("PF: ");
     Serial.println(pf);
   }
-
+      Serial.print("Voltage: ");
+    Serial.print(acVoltage);
+    Serial.println("V");
+    Serial.print("Current: ");
+    Serial.print(current);
+    Serial.println("A");
+    Serial.print("Power: ");
+    Serial.print(power);
+    Serial.println("W");
+    Serial.print("Energy: ");
+    Serial.print(energy, 3);
+    Serial.println("kWh");
+    Serial.print("Frequency: ");
+    Serial.print(frequency, 1);
+    Serial.println("Hz");
+    Serial.print("PF: ");
+    Serial.println(pf);
+sensors.requestTemperatures();
   Serial.println(sensors.getTempC(insideThermometer));
   
 
